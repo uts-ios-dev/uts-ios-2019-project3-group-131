@@ -51,10 +51,10 @@
             </objects>
             <point key="canvasLocation" x="1140" y="-564.46776611694156"/>
         </scene>
-        <!--View Controller-->
+        <!--Crypto Tree Map View Controller-->
         <scene sceneID="9CF-4Q-Hh8">
             <objects>
-                <viewController id="7d7-tn-R5y" sceneMemberID="viewController">
+                <viewController id="7d7-tn-R5y" customClass="CryptoTreeMapViewController" customModule="Ios_Assignment3_131" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tgo-Rl-sgR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
