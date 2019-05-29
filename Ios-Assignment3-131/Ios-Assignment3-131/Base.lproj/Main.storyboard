@@ -34,9 +34,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ti4-fk-09Y">
-                                <rect key="frame" x="268" y="87" width="91" height="30"/>
+                                <rect key="frame" x="284" y="87" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Change View"/>
+                                <state key="normal" title="TreeMap"/>
                                 <connections>
                                     <segue destination="7d7-tn-R5y" kind="show" id="Wu1-bD-lgx"/>
                                 </connections>
