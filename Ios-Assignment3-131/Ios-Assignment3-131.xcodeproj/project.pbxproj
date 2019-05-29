@@ -15,6 +15,7 @@
 		8AD95D29229EBB4600BD6400 /* TreeMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D28229EBB4600BD6400 /* TreeMap.swift */; };
 		8AD95D2B229EBB9500BD6400 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D2A229EBB9500BD6400 /* Container.swift */; };
 		8AD95D2F229EBCD300BD6400 /* CryptoTreeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D2E229EBCD300BD6400 /* CryptoTreeMapViewController.swift */; };
+		8AD95D31229EC0BB00BD6400 /* CryptoCurrencyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D30229EC0BB00BD6400 /* CryptoCurrencyData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8AD95D28229EBB4600BD6400 /* TreeMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeMap.swift; sourceTree = "<group>"; };
 		8AD95D2A229EBB9500BD6400 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		8AD95D2E229EBCD300BD6400 /* CryptoTreeMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTreeMapViewController.swift; sourceTree = "<group>"; };
+		8AD95D30229EC0BB00BD6400 /* CryptoCurrencyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				4F4C2FF522924F0C000D1273 /* AppDelegate.swift */,
+				8AD95D30229EC0BB00BD6400 /* CryptoCurrencyData.swift */,
 				4F4C2FF722924F0C000D1273 /* ViewController.swift */,
 				4F4C2FF922924F0C000D1273 /* Main.storyboard */,
 				8AD95D28229EBB4600BD6400 /* TreeMap.swift */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AD95D29229EBB4600BD6400 /* TreeMap.swift in Sources */,
+				8AD95D31229EC0BB00BD6400 /* CryptoCurrencyData.swift in Sources */,
 				8AD95D2B229EBB9500BD6400 /* Container.swift in Sources */,
 				4F4C2FF822924F0C000D1273 /* ViewController.swift in Sources */,
 				4F4C2FF622924F0C000D1273 /* AppDelegate.swift in Sources */,
