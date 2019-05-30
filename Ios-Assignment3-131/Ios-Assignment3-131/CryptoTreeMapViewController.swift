@@ -83,7 +83,7 @@ class CryptoTreeMapViewController: UIViewController {
             let myView = UIView(frame: CGRect(x: x1, y: y1, width: width, height: height))
             myView.layer.borderWidth = 1
             
-            
+            print("index",index)
 //            let uiColors = cryptoData["colors"] as? [String: AnyObject]
 //                (cryptoData.value(forKey: "color")! as AnyObject).valueForKey("BTC")
 //            myView.layer.borderColor = UIColor.black.cgColor
@@ -93,20 +93,34 @@ class CryptoTreeMapViewController: UIViewController {
             myView.layer.borderColor = bgColor
             myView.layer.backgroundColor = bgColor
             
-            let label = UILabel(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+            var label = UILabel(frame: CGRect(x: 0, y: myView.frame.height*0.10, width: myView.frame.width*0.50, height: myView.frame.width*0.30))
             //label.center = CGPointMake(160, 284)
             label.textAlignment = NSTextAlignment.center
             label.text =  cryptoCodes[index]
             label.adjustsFontSizeToFitWidth = true
             myView.addSubview(label)
             
-            let datalabel = UILabel(frame: CGRect(x: 0, y: 50, width: 50, height: 50))
+            var datalabel = UILabel(frame: CGRect(x: 0, y: myView.frame.height*0.30, width:  myView.frame.width*0.50, height: 50))
             datalabel.textAlignment = NSTextAlignment.center
             datalabel.text =  String(format: "%.2f", cryptoMarketCapData[index]/pow(10, 9))+"B"
             datalabel.adjustsFontSizeToFitWidth = true
             myView.addSubview(datalabel)
             
-            let percentlabel = UILabel(frame: CGRect(x: 60, y: 50, width: 50, height: 50))
+            
+            var percentLabelXPos: CGFloat = 0
+            var percentLabelYPos: CGFloat = 0
+            
+            if(myView.frame.height>myView.frame.width){
+                percentLabelXPos = 0.00
+                percentLabelYPos = myView.frame.height*0.5
+
+            }
+            else{
+                percentLabelYPos = myView.frame.height*0.30
+                percentLabelXPos = myView.frame.height*0.7
+            }
+            
+            var percentlabel = UILabel(frame: CGRect(x: percentLabelXPos, y: percentLabelYPos, width: myView.frame.width*0.50, height: 50))
             percentlabel.textAlignment = NSTextAlignment.center
             percentlabel.text =  String(format: "%.2f", (cryptoMarketCapData[index]/pow(10, 9)) / (totalMarketVolume / pow(10, 9)) * 100)+"%"
             percentlabel.adjustsFontSizeToFitWidth = true
