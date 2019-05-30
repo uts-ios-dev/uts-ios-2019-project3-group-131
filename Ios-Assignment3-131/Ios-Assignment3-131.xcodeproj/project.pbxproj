@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A290D12CCB3241837EAFDF0 /* Pods_Ios_Assignment3_131.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAD4BF7641F34CAD1FD1233 /* Pods_Ios_Assignment3_131.framework */; };
 		4F4C2FF622924F0C000D1273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C2FF522924F0C000D1273 /* AppDelegate.swift */; };
 		4F4C2FF822924F0C000D1273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C2FF722924F0C000D1273 /* ViewController.swift */; };
 		4F4C2FFB22924F0C000D1273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C2FF922924F0C000D1273 /* Main.storyboard */; };
 		4F4C2FFD22924F0F000D1273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C2FFC22924F0F000D1273 /* Assets.xcassets */; };
 		4F4C300022924F0F000D1273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C2FFE22924F0F000D1273 /* LaunchScreen.storyboard */; };
+		4F4C30082296335F000D1273 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C30072296335F000D1273 /* NewsViewController.swift */; };
+		4F4C30092296371A000D1273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C2FFC22924F0F000D1273 /* Assets.xcassets */; };
+		4FF5D59B229D0C5000A8C735 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5D59A229D0C5000A8C735 /* NewsDetailViewController.swift */; };
+		4FF5D59D229D135F00A8C735 /* XMLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5D59C229D135F00A8C735 /* XMLHandler.swift */; };
 		8AD95D29229EBB4600BD6400 /* TreeMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D28229EBB4600BD6400 /* TreeMap.swift */; };
 		8AD95D2B229EBB9500BD6400 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D2A229EBB9500BD6400 /* Container.swift */; };
 		8AD95D2F229EBCD300BD6400 /* CryptoTreeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D2E229EBCD300BD6400 /* CryptoTreeMapViewController.swift */; };
 		8AD95D31229EC0BB00BD6400 /* CryptoCurrencyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D30229EC0BB00BD6400 /* CryptoCurrencyData.swift */; };
+		D32DA70F2295817000F8552C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DA70E2295817000F8552C /* DetailViewController.swift */; };
+		D32DA7112295901000F8552C /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DA7102295901000F8552C /* DataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +33,18 @@
 		4F4C2FFC22924F0F000D1273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F4C2FFF22924F0F000D1273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F4C300122924F0F000D1273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4C30072296335F000D1273 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		4FF5D59A229D0C5000A8C735 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		4FF5D59C229D135F00A8C735 /* XMLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLHandler.swift; sourceTree = "<group>"; };
 		8AD95D28229EBB4600BD6400 /* TreeMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeMap.swift; sourceTree = "<group>"; };
 		8AD95D2A229EBB9500BD6400 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		8AD95D2E229EBCD300BD6400 /* CryptoTreeMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTreeMapViewController.swift; sourceTree = "<group>"; };
 		8AD95D30229EC0BB00BD6400 /* CryptoCurrencyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyData.swift; sourceTree = "<group>"; };
+		8163D00689B39FB0C2DD1C13 /* Pods-Ios-Assignment3-131.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ios-Assignment3-131.debug.xcconfig"; path = "Target Support Files/Pods-Ios-Assignment3-131/Pods-Ios-Assignment3-131.debug.xcconfig"; sourceTree = "<group>"; };
+		A740D98AFCAC2A7EB234E117 /* Pods-Ios-Assignment3-131.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ios-Assignment3-131.release.xcconfig"; path = "Target Support Files/Pods-Ios-Assignment3-131/Pods-Ios-Assignment3-131.release.xcconfig"; sourceTree = "<group>"; };
+		D32DA70E2295817000F8552C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D32DA7102295901000F8552C /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		DBAD4BF7641F34CAD1FD1233 /* Pods_Ios_Assignment3_131.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ios_Assignment3_131.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +52,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A290D12CCB3241837EAFDF0 /* Pods_Ios_Assignment3_131.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01F9A48F92CF6F6F8E3543EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBAD4BF7641F34CAD1FD1233 /* Pods_Ios_Assignment3_131.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4F4C2FE922924F0C000D1273 = {
 			isa = PBXGroup;
 			children = (
 				4F4C2FF422924F0C000D1273 /* Ios-Assignment3-131 */,
 				4F4C2FF322924F0C000D1273 /* Products */,
+				5CA0CD97745F647C0EA36DB5 /* Pods */,
+				01F9A48F92CF6F6F8E3543EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,12 +94,23 @@
 				4F4C2FF922924F0C000D1273 /* Main.storyboard */,
 				8AD95D28229EBB4600BD6400 /* TreeMap.swift */,
 				8AD95D2A229EBB9500BD6400 /* Container.swift */,
+				D32DA70E2295817000F8552C /* DetailViewController.swift */,
+				D32DA7102295901000F8552C /* DataProvider.swift */,
 				4F4C2FFC22924F0F000D1273 /* Assets.xcassets */,
 				4F4C2FFE22924F0F000D1273 /* LaunchScreen.storyboard */,
 				4F4C300122924F0F000D1273 /* Info.plist */,
 				8AD95D2E229EBCD300BD6400 /* CryptoTreeMapViewController.swift */,
 			);
 			path = "Ios-Assignment3-131";
+			sourceTree = "<group>";
+		};
+		5CA0CD97745F647C0EA36DB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8163D00689B39FB0C2DD1C13 /* Pods-Ios-Assignment3-131.debug.xcconfig */,
+				A740D98AFCAC2A7EB234E117 /* Pods-Ios-Assignment3-131.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F4C300422924F0F000D1273 /* Build configuration list for PBXNativeTarget "Ios-Assignment3-131" */;
 			buildPhases = (
+				3407A3ABE47D6BE3C9B7660D /* [CP] Check Pods Manifest.lock */,
 				4F4C2FEE22924F0C000D1273 /* Sources */,
 				4F4C2FEF22924F0C000D1273 /* Frameworks */,
 				4F4C2FF022924F0C000D1273 /* Resources */,
+				1636F591BE8325D4F52BD6E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,15 +180,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1636F591BE8325D4F52BD6E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ios-Assignment3-131/Pods-Ios-Assignment3-131-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ios-Assignment3-131/Pods-Ios-Assignment3-131-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3407A3ABE47D6BE3C9B7660D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ios-Assignment3-131-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F4C2FEE22924F0C000D1273 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF5D59D229D135F00A8C735 /* XMLHandler.swift in Sources */,
+				4FF5D59B229D0C5000A8C735 /* NewsDetailViewController.swift in Sources */,
 				8AD95D29229EBB4600BD6400 /* TreeMap.swift in Sources */,
 				8AD95D31229EC0BB00BD6400 /* CryptoCurrencyData.swift in Sources */,
 				8AD95D2B229EBB9500BD6400 /* Container.swift in Sources */,
 				4F4C2FF822924F0C000D1273 /* ViewController.swift in Sources */,
+				4F4C30082296335F000D1273 /* NewsViewController.swift in Sources */,
+				D32DA70F2295817000F8552C /* DetailViewController.swift in Sources */,
+				4F4C2FF822924F0C000D1273 /* ViewController.swift in Sources */,
+				D32DA7112295901000F8552C /* DataProvider.swift in Sources */,
 				4F4C2FF622924F0C000D1273 /* AppDelegate.swift in Sources */,
 				8AD95D2F229EBCD300BD6400 /* CryptoTreeMapViewController.swift in Sources */,
 			);
@@ -228,13 +320,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -283,22 +376,26 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		4F4C300522924F0F000D1273 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8163D00689B39FB0C2DD1C13 /* Pods-Ios-Assignment3-131.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Ios-Assignment3-131/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,10 +409,13 @@
 		};
 		4F4C300622924F0F000D1273 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A740D98AFCAC2A7EB234E117 /* Pods-Ios-Assignment3-131.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Ios-Assignment3-131/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
