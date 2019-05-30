@@ -15,14 +15,14 @@
 
 
 import Foundation
-
+//protocol AdditiveArithmetic
 
 import UIKit
 
 class CryptoTreeMapViewController: UIViewController {
     
     // crypto data is market cap data from www.coinmarketcap.com
-    let cryptoMarketCapData = [153226925350.0,
+    var cryptoMarketCapData = [153226925350.0,
                                28623380706.0,
                                18663205894.0,
                                7898936734.0,
@@ -32,8 +32,12 @@ class CryptoTreeMapViewController: UIViewController {
                                3276030485,
                                3134341006]
     
+    var totalMarketVolume: Double = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        totalMarketVolume = sum(array: cryptoMarketCapData)
         
         
         var treeMap = TreeMap()
@@ -98,9 +102,15 @@ class CryptoTreeMapViewController: UIViewController {
             
             let datalabel = UILabel(frame: CGRect(x: 0, y: 50, width: 50, height: 50))
             datalabel.textAlignment = NSTextAlignment.center
-            datalabel.text =  String(format: "%.2f", cryptoMarketCapData[index]/pow(10, 9))
+            datalabel.text =  String(format: "%.2f", cryptoMarketCapData[index]/pow(10, 9))+"B"
             datalabel.adjustsFontSizeToFitWidth = true
             myView.addSubview(datalabel)
+            
+            let percentlabel = UILabel(frame: CGRect(x: 60, y: 50, width: 50, height: 50))
+            percentlabel.textAlignment = NSTextAlignment.center
+            percentlabel.text =  String(format: "%.2f", (cryptoMarketCapData[index]/pow(10, 9)) / (totalMarketVolume / pow(10, 9)) * 100)+"%"
+            percentlabel.adjustsFontSizeToFitWidth = true
+            myView.addSubview(percentlabel)
 
             index+=1
             
@@ -131,4 +141,22 @@ class CryptoTreeMapViewController: UIViewController {
 
     }
     
+    func sum(array: Array<Double>)-> Double{
+        
+        var runningTotal: Double = 0
+        
+        for double in array{
+            runningTotal += double
+        }
+        return runningTotal
+        
+    }
+    
+    
 }
+
+//extension Sequence where Element: AdditiveArithmetic {
+//    func sum() -> Element {
+//        return reduce(0, +)
+//    }
+//}
