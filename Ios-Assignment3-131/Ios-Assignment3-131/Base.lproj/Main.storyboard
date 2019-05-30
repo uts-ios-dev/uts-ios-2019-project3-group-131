@@ -19,9 +19,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ti4-fk-09Y">
-                                <rect key="frame" x="268" y="87" width="91" height="30"/>
+                                <rect key="frame" x="277" y="87" width="75" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Change View"/>
+                                <state key="normal" title="MarketCap"/>
                                 <connections>
                                     <segue destination="7d7-tn-R5y" kind="show" id="Wu1-bD-lgx"/>
                                 </connections>
@@ -79,10 +79,10 @@
             </objects>
             <point key="canvasLocation" x="1140" y="-564.46776611694156"/>
         </scene>
-        <!--View Controller-->
+        <!--Crypto Tree Map View Controller-->
         <scene sceneID="9CF-4Q-Hh8">
             <objects>
-                <viewController id="7d7-tn-R5y" sceneMemberID="viewController">
+                <viewController id="7d7-tn-R5y" customClass="CryptoTreeMapViewController" customModule="Ios_Assignment3_131" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tgo-Rl-sgR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

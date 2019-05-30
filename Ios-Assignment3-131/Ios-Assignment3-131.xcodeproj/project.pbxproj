@@ -15,6 +15,10 @@
 		4F4C30092296371A000D1273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C2FFC22924F0F000D1273 /* Assets.xcassets */; };
 		4FF5D59B229D0C5000A8C735 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5D59A229D0C5000A8C735 /* NewsDetailViewController.swift */; };
 		4FF5D59D229D135F00A8C735 /* XMLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5D59C229D135F00A8C735 /* XMLHandler.swift */; };
+		8AD95D29229EBB4600BD6400 /* TreeMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D28229EBB4600BD6400 /* TreeMap.swift */; };
+		8AD95D2B229EBB9500BD6400 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D2A229EBB9500BD6400 /* Container.swift */; };
+		8AD95D2F229EBCD300BD6400 /* CryptoTreeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D2E229EBCD300BD6400 /* CryptoTreeMapViewController.swift */; };
+		8AD95D31229EC0BB00BD6400 /* CryptoCurrencyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D30229EC0BB00BD6400 /* CryptoCurrencyData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		4F4C30072296335F000D1273 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		4FF5D59A229D0C5000A8C735 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
 		4FF5D59C229D135F00A8C735 /* XMLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLHandler.swift; sourceTree = "<group>"; };
+		8AD95D28229EBB4600BD6400 /* TreeMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeMap.swift; sourceTree = "<group>"; };
+		8AD95D2A229EBB9500BD6400 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		8AD95D2E229EBCD300BD6400 /* CryptoTreeMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTreeMapViewController.swift; sourceTree = "<group>"; };
+		8AD95D30229EC0BB00BD6400 /* CryptoCurrencyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				4F4C2FF522924F0C000D1273 /* AppDelegate.swift */,
+				8AD95D30229EC0BB00BD6400 /* CryptoCurrencyData.swift */,
 				4F4C2FF722924F0C000D1273 /* ViewController.swift */,
 				4F4C2FF922924F0C000D1273 /* Main.storyboard */,
+				8AD95D28229EBB4600BD6400 /* TreeMap.swift */,
+				8AD95D2A229EBB9500BD6400 /* Container.swift */,
 				4F4C2FFC22924F0F000D1273 /* Assets.xcassets */,
 				4F4C30072296335F000D1273 /* NewsViewController.swift */,
 				4FF5D59C229D135F00A8C735 /* XMLHandler.swift */,
 				4F4C2FFE22924F0F000D1273 /* LaunchScreen.storyboard */,
 				4FF5D59A229D0C5000A8C735 /* NewsDetailViewController.swift */,
 				4F4C300122924F0F000D1273 /* Info.plist */,
+				8AD95D2E229EBCD300BD6400 /* CryptoTreeMapViewController.swift */,
 			);
 			path = "Ios-Assignment3-131";
 			sourceTree = "<group>";
@@ -145,9 +157,13 @@
 			files = (
 				4FF5D59D229D135F00A8C735 /* XMLHandler.swift in Sources */,
 				4FF5D59B229D0C5000A8C735 /* NewsDetailViewController.swift in Sources */,
+				8AD95D29229EBB4600BD6400 /* TreeMap.swift in Sources */,
+				8AD95D31229EC0BB00BD6400 /* CryptoCurrencyData.swift in Sources */,
+				8AD95D2B229EBB9500BD6400 /* Container.swift in Sources */,
 				4F4C2FF822924F0C000D1273 /* ViewController.swift in Sources */,
 				4F4C30082296335F000D1273 /* NewsViewController.swift in Sources */,
 				4F4C2FF622924F0C000D1273 /* AppDelegate.swift in Sources */,
+				8AD95D2F229EBCD300BD6400 /* CryptoTreeMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
