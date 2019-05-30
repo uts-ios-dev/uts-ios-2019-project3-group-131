@@ -11,9 +11,10 @@
 		4F4C2FF822924F0C000D1273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C2FF722924F0C000D1273 /* ViewController.swift */; };
 		4F4C2FFB22924F0C000D1273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C2FF922924F0C000D1273 /* Main.storyboard */; };
 		4F4C300022924F0F000D1273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C2FFE22924F0F000D1273 /* LaunchScreen.storyboard */; };
-		4F4C30082296335F000D1273 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C30072296335F000D1273 /* TableViewController.swift */; };
+		4F4C30082296335F000D1273 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C30072296335F000D1273 /* NewsViewController.swift */; };
 		4F4C30092296371A000D1273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4C2FFC22924F0F000D1273 /* Assets.xcassets */; };
-		4F4C300B229639D7000D1273 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C300A229639D7000D1273 /* CustomCell.swift */; };
+		4FF5D59B229D0C5000A8C735 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5D59A229D0C5000A8C735 /* NewsDetailViewController.swift */; };
+		4FF5D59D229D135F00A8C735 /* XMLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5D59C229D135F00A8C735 /* XMLHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +25,9 @@
 		4F4C2FFC22924F0F000D1273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F4C2FFF22924F0F000D1273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F4C300122924F0F000D1273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F4C30072296335F000D1273 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		4F4C300A229639D7000D1273 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		4F4C30072296335F000D1273 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		4FF5D59A229D0C5000A8C735 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		4FF5D59C229D135F00A8C735 /* XMLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +64,11 @@
 				4F4C2FF722924F0C000D1273 /* ViewController.swift */,
 				4F4C2FF922924F0C000D1273 /* Main.storyboard */,
 				4F4C2FFC22924F0F000D1273 /* Assets.xcassets */,
-				4F4C30072296335F000D1273 /* TableViewController.swift */,
+				4F4C30072296335F000D1273 /* NewsViewController.swift */,
+				4FF5D59C229D135F00A8C735 /* XMLHandler.swift */,
 				4F4C2FFE22924F0F000D1273 /* LaunchScreen.storyboard */,
+				4FF5D59A229D0C5000A8C735 /* NewsDetailViewController.swift */,
 				4F4C300122924F0F000D1273 /* Info.plist */,
-				4F4C300A229639D7000D1273 /* CustomCell.swift */,
 			);
 			path = "Ios-Assignment3-131";
 			sourceTree = "<group>";
@@ -140,9 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF5D59D229D135F00A8C735 /* XMLHandler.swift in Sources */,
+				4FF5D59B229D0C5000A8C735 /* NewsDetailViewController.swift in Sources */,
 				4F4C2FF822924F0C000D1273 /* ViewController.swift in Sources */,
-				4F4C30082296335F000D1273 /* TableViewController.swift in Sources */,
-				4F4C300B229639D7000D1273 /* CustomCell.swift in Sources */,
+				4F4C30082296335F000D1273 /* NewsViewController.swift in Sources */,
 				4F4C2FF622924F0C000D1273 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
