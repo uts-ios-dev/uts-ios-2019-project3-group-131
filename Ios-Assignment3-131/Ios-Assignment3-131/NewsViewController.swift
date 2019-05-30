@@ -15,7 +15,6 @@ class NewsViewController: UITableViewController, XMLParserDelegate {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 140
         tableView.backgroundColor = UIColor.black
@@ -32,13 +31,11 @@ class NewsViewController: UITableViewController, XMLParserDelegate {
     }
     
     func loadRss(_ data: URL) {
-        
         // initialize XML parser
         let myParser : XMLHandler = XMLHandler().initParser(data) as! XMLHandler
-        
         // Fetch data from XML parser
-        feedImgs = myParser.img as [AnyObject]
         myFeed = myParser.newsFeeds
+        feedImgs = myParser.img as [AnyObject]
         tableView.reloadData()
     }
     
@@ -68,25 +65,16 @@ class NewsViewController: UITableViewController, XMLParserDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.textLabel?.backgroundColor = UIColor.clear
         cell.detailTextLabel?.backgroundColor = UIColor.clear
-        
-        if indexPath.row % 2 == 0 {
-            cell.backgroundColor = UIColor(white: 1, alpha: 0)
-        } else {
-            cell.backgroundColor = UIColor(white: 1, alpha: 0)
-        }
-        
+        cell.backgroundColor = UIColor(white: 1, alpha: 0)
         // Load feed image.
         let url = NSURL(string:feedImgs[indexPath.row] as! String)
         let data = NSData(contentsOf:url! as URL)
         var image = UIImage(data:data! as Data)
         
-        image = resizeImage(image: image!, toTheSize: CGSize(width: 70, height: 70))
+        image = resizeImage(image: image!, toTheSize: CGSize(width: 100, height: 100))
         
         let cellImageLayer: CALayer?  = cell.imageView?.layer
-        
-        cellImageLayer!.cornerRadius = 35
         cellImageLayer!.masksToBounds = true
-        
         cell.imageView?.image = image
         cell.textLabel?.text = (myFeed.object(at: indexPath.row) as AnyObject).object(forKey: "title") as? String
         cell.textLabel?.textColor = UIColor.white
@@ -94,12 +82,10 @@ class NewsViewController: UITableViewController, XMLParserDelegate {
         cell.textLabel?.lineBreakMode = .byWordWrapping
         cell.detailTextLabel?.text = (myFeed.object(at: indexPath.row) as AnyObject).object(forKey: "pubDate") as? String
         cell.detailTextLabel?.textColor = UIColor.white
-        
         return cell
     }
         
-    func resizeImage(image:UIImage, toTheSize size:CGSize)->UIImage{
-        
+    func resizeImage(image:UIImage, toTheSize size:CGSize) -> UIImage {
         let scale = CGFloat(max(size.width/image.size.width,
                                 size.height/image.size.height))
         let width:CGFloat  = image.size.width * scale
