@@ -9,9 +9,8 @@ import UIKit
 
     class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
         
-        var coinNames = ["BTC", "ETH", "LTC"]
-        var coinPrice = ["$ 8000", "$ 200", "$ 98"]
-        var coinCell = ["CellBtc","CellEtc","CellLtc"]
+        var coinNames = ["Bitcoin", "Ethereum", "XRP","EOS","Litecoin","Binance Coin","Tether","Stellar","Cardano"]
+        var coinPrice = ["$8622.54", "$269.52", "$0.438930","$7.98","$114.61","$33.52","$1","$0.135434","$0.089844"]
         
         override func viewDidLoad() {
             super.viewDidLoad()
@@ -34,5 +33,6 @@ import UIKit
                 cell.detailTextLabel?.text = coinPrice[indexPath.row]
                 return cell
         }
+        
 }
 
