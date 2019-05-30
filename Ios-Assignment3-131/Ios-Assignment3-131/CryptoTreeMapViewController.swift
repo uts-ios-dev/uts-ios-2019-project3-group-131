@@ -36,6 +36,8 @@ class CryptoTreeMapViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "Market Cap";
+
         
         totalMarketVolume = sum(array: cryptoMarketCapData)
         
