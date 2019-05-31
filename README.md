@@ -8,8 +8,16 @@ The project was completed in a group of 4 students who have various levels of ex
 For this reason the project is limited in scope nevertheless a basic MVP is achieved.
 
 **Install**
+
 The project uses a cocoapods module, so in order to build on your machine please install this library.
+  ```
   sudo gem install cocoapods
+  ```
+  
 Then from the directory containing the pod file:
+```
   pod install
-If there are any build dependency problems please check that the project sees all source files under Project-> Build Phases.
+```
+
+If there are any build dependency problems please check that the project sees all source files under 
+Project-> Build Phases.
