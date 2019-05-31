@@ -19,5 +19,7 @@ Then from the directory containing the pod file:
   pod install
 ```
 
+Then open the xcode worspace file (instead of project file).
+
 If there are any build dependency problems please check that the project sees all source files under 
 Project-> Build Phases.
