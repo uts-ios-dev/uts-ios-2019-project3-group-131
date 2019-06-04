@@ -19,7 +19,51 @@
 		8AD95D2B229EBB9500BD6400 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D2A229EBB9500BD6400 /* Container.swift */; };
 		8AD95D2F229EBCD300BD6400 /* CryptoTreeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D2E229EBCD300BD6400 /* CryptoTreeMapViewController.swift */; };
 		8AD95D31229EC0BB00BD6400 /* CryptoCurrencyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD95D30229EC0BB00BD6400 /* CryptoCurrencyData.swift */; };
+		D386FBDA22A3F324003638F5 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386FBD922A3F324003638F5 /* ChartsViewController.swift */; };
+		D386FBDD22A3F3A0003638F5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386FBDC22A3F3A0003638F5 /* Network.swift */; };
+		D386FBDF22A3FBD6003638F5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386FBDE22A3FBD6003638F5 /* Helper.swift */; };
+		D386FBE522A4107B003638F5 /* CoinOHLCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386FBE422A4107B003638F5 /* CoinOHLCV.swift */; };
+		D386FD1E22A415AB003638F5 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D386FD1B22A41573003638F5 /* Charts.framework */; };
+		D386FD1F22A415AB003638F5 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D386FD1B22A41573003638F5 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D386FD1A22A41573003638F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D386FD1522A41573003638F5 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		D386FD1C22A41573003638F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D386FD1522A41573003638F5 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		D386FD2022A415AB003638F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D386FD1522A41573003638F5 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D386FD2222A415AB003638F5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D386FD1F22A415AB003638F5 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4F4C2FF222924F0C000D1273 /* Ios-Assignment3-131.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ios-Assignment3-131.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +80,11 @@
 		8AD95D2A229EBB9500BD6400 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		8AD95D2E229EBCD300BD6400 /* CryptoTreeMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTreeMapViewController.swift; sourceTree = "<group>"; };
 		8AD95D30229EC0BB00BD6400 /* CryptoCurrencyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyData.swift; sourceTree = "<group>"; };
+		D386FBD922A3F324003638F5 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		D386FBDC22A3F3A0003638F5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		D386FBDE22A3FBD6003638F5 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		D386FBE422A4107B003638F5 /* CoinOHLCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinOHLCV.swift; sourceTree = "<group>"; };
+		D386FD1522A41573003638F5 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "Framework/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D386FD1E22A415AB003638F5 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,15 +124,45 @@
 				4F4C2FF922924F0C000D1273 /* Main.storyboard */,
 				8AD95D28229EBB4600BD6400 /* TreeMap.swift */,
 				8AD95D2A229EBB9500BD6400 /* Container.swift */,
-				4F4C2FFC22924F0F000D1273 /* Assets.xcassets */,
 				4F4C30072296335F000D1273 /* NewsViewController.swift */,
 				4FF5D59C229D135F00A8C735 /* XMLHandler.swift */,
-				4F4C2FFE22924F0F000D1273 /* LaunchScreen.storyboard */,
 				4FF5D59A229D0C5000A8C735 /* NewsDetailViewController.swift */,
-				4F4C300122924F0F000D1273 /* Info.plist */,
 				8AD95D2E229EBCD300BD6400 /* CryptoTreeMapViewController.swift */,
+				4F4C300122924F0F000D1273 /* Info.plist */,
+				D31F1FE422A3F2DD0098F0DC /* Charts */,
+				D386FBDB22A3F342003638F5 /* Support Files */,
 			);
 			path = "Ios-Assignment3-131";
+			sourceTree = "<group>";
+		};
+		D31F1FE422A3F2DD0098F0DC /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				D386FD1522A41573003638F5 /* Charts.xcodeproj */,
+				D386FBE422A4107B003638F5 /* CoinOHLCV.swift */,
+				D386FBD922A3F324003638F5 /* ChartsViewController.swift */,
+				D386FBDC22A3F3A0003638F5 /* Network.swift */,
+				D386FBDE22A3FBD6003638F5 /* Helper.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		D386FBDB22A3F342003638F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F4C2FFC22924F0F000D1273 /* Assets.xcassets */,
+				4F4C2FFE22924F0F000D1273 /* LaunchScreen.storyboard */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		D386FD1622A41573003638F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D386FD1B22A41573003638F5 /* Charts.framework */,
+				D386FD1D22A41573003638F5 /* ChartsTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,10 +175,12 @@
 				4F4C2FEE22924F0C000D1273 /* Sources */,
 				4F4C2FEF22924F0C000D1273 /* Frameworks */,
 				4F4C2FF022924F0C000D1273 /* Resources */,
+				D386FD2222A415AB003638F5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D386FD2122A415AB003638F5 /* PBXTargetDependency */,
 			);
 			name = "Ios-Assignment3-131";
 			productName = "Ios-Assignment3-131";
@@ -130,12 +212,35 @@
 			mainGroup = 4F4C2FE922924F0C000D1273;
 			productRefGroup = 4F4C2FF322924F0C000D1273 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D386FD1622A41573003638F5 /* Products */;
+					ProjectRef = D386FD1522A41573003638F5 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4F4C2FF122924F0C000D1273 /* Ios-Assignment3-131 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D386FD1B22A41573003638F5 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = D386FD1A22A41573003638F5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D386FD1D22A41573003638F5 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = D386FD1C22A41573003638F5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4F4C2FF022924F0C000D1273 /* Resources */ = {
@@ -159,15 +264,27 @@
 				4FF5D59B229D0C5000A8C735 /* NewsDetailViewController.swift in Sources */,
 				8AD95D29229EBB4600BD6400 /* TreeMap.swift in Sources */,
 				8AD95D31229EC0BB00BD6400 /* CryptoCurrencyData.swift in Sources */,
+				D386FBE522A4107B003638F5 /* CoinOHLCV.swift in Sources */,
 				8AD95D2B229EBB9500BD6400 /* Container.swift in Sources */,
+				D386FBDD22A3F3A0003638F5 /* Network.swift in Sources */,
 				4F4C2FF822924F0C000D1273 /* ViewController.swift in Sources */,
 				4F4C30082296335F000D1273 /* NewsViewController.swift in Sources */,
+				D386FBDA22A3F324003638F5 /* ChartsViewController.swift in Sources */,
+				D386FBDF22A3FBD6003638F5 /* Helper.swift in Sources */,
 				4F4C2FF622924F0C000D1273 /* AppDelegate.swift in Sources */,
 				8AD95D2F229EBCD300BD6400 /* CryptoTreeMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D386FD2122A415AB003638F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = D386FD2022A415AB003638F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4F4C2FF922924F0C000D1273 /* Main.storyboard */ = {
@@ -247,6 +364,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -301,6 +419,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -308,8 +427,13 @@
 		4F4C300522924F0F000D1273 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ios-Assignment3-131/Charts",
+				);
 				INFOPLIST_FILE = "Ios-Assignment3-131/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -325,8 +449,13 @@
 		4F4C300622924F0F000D1273 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ios-Assignment3-131/Charts",
+				);
 				INFOPLIST_FILE = "Ios-Assignment3-131/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
