@@ -2,7 +2,7 @@
 //  ChartsViewController.swift
 //  Ios-Assignment3-131
 //
-//  Created by Ran Mo on 2019/6/2.
+//  Created by MorningStar on 2019/6/2.
 //
 
 import UIKit
